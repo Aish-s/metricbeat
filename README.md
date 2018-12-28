@@ -1,8 +1,3 @@
-# metricbeat Jolokia module Issue 
-I had recently started ELK installation and for data ship using metricbeat. But got stuck with Jolokia setting, not able to get any parameters of Jolokia module which are mentioned under mbean: 'java.lang:type=MemoryPool' . rest other are showing on Kibana dashboard Any suggestion ?
-
-Jolokia module , metricbeat.yml file setting.
-
 - module: jolokia
   metricsets: ["jmx"]
   period: 10s
